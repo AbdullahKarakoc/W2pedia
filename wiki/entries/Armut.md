@@ -1,0 +1,3 @@
+#Armut
+
+Armutu severim, yenir.
