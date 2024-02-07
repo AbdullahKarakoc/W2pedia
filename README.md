@@ -9,23 +9,31 @@ This Django application allows users to add, read, search, and edit articles. On
 2. Clone or download this project.
    
 3. Navigate to the project folder and create a virtual environment:
+   
      python -m venv myenv
    
 4. Activate the virtual environment:
+   
     On Windows:
      myenv\Scripts\activate
+   
     On Linux/Mac:
      source myenv/bin/activate
 
 5. Install the required dependencie:
+   
      pip install django
+   
      pip install markdown2
 
 6. Run migrations to create the database:
+    
      python manage.py makemigrations
+   
      python manage.py migrate
 
 7. Start the server:
+    
      python manage.py runserver
 
 8. You can now start using the application by visiting http://localhost:8000 in your browser.
