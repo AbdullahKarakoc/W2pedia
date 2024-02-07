@@ -7,27 +7,27 @@ This Django application allows users to add, read, search, and edit articles. On
 1. Firstly, ensure that Python and Django are installed on your computer.
 2. Clone or download this project.
 3. Navigate to the project folder and create a virtual environment:
-   python -m venv myenv
+  -> - python -m venv myenv
 4. Activate the virtual environment:
 
 On Windows:
-   myenv\Scripts\activate
+  -> - myenv\Scripts\activate
 
 On Linux/Mac:
-   source myenv/bin/activate
+  -> - source myenv/bin/activate
 
-Install the required dependencie:
-   pip install django
-   pip install markdown2
+5. Install the required dependencie:
+  -> - pip install django
+  -> - pip install markdown2
 
-Run migrations to create the database:
-   python manage.py makemigrations
-   python manage.py migrate
+6. Run migrations to create the database:
+  -> - python manage.py makemigrations
+  -> - python manage.py migrate
 
-Start the server:
-   python manage.py runserver
+7. Start the server:
+  -> - python manage.py runserver
 
-You can now start using the application by visiting http://localhost:8000 in your browser.
+8. You can now start using the application by visiting http://localhost:8000 in your browser.
 
 # Usage
 
@@ -36,10 +36,10 @@ You can now start using the application by visiting http://localhost:8000 in you
 * Editing an Article: You can edit an existing article by clicking the "Edit" button on the article content page. Make the necessary changes and save.
 * Searching for an Article: You can search for articles by their titles using the search bar at the top of the homepage.
 * Random Article: By clicking on the "Random Article" button on the homepage, you can access a random article.
+  
 
-- Contribution
+# Contribution
 If you have any feedback or suggestions regarding this project, feel free to contribute by opening an issue or sending a pull request. We welcome any contributions!
-
-- License
+# License
 This project is licensed under the MIT License. See the LICENSE file for more information.
 
