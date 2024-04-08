@@ -51,6 +51,3 @@ This Django application allows users to add, read, search, and edit articles. On
 If you have any feedback or suggestions regarding this project, feel free to contribute by opening an issue or sending a pull request. We welcome any contributions!
 # License
 This project is licensed under the MIT License. See the LICENSE file for more information.
-
-
-
